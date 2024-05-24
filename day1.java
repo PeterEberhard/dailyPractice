@@ -7,7 +7,6 @@ public class day1 {
             int i = 0;
 
             while(!found) {
-                int currentGuess = nums[i];
                 for (int j = 0; j < nums.length; j++) {
                     // skip same location
                     if (j != i && nums[i] + nums[j] == target) {
